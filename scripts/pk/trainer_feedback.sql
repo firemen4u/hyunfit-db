@@ -1,0 +1,4 @@
+
+ALTER TABLE trainer_feedback ADD CONSTRAINT PK_TRAINER_FEEDBACK PRIMARY KEY (
+	trnf_seq
+);

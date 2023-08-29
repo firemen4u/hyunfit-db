@@ -1,0 +1,4 @@
+
+ALTER TABLE administrator ADD CONSTRAINT PK_ADMINISTRATOR PRIMARY KEY (
+	adm_seq
+);

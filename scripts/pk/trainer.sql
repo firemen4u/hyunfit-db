@@ -1,0 +1,4 @@
+
+ALTER TABLE trainer ADD CONSTRAINT PK_TRAINER PRIMARY KEY (
+	trn_seq
+);

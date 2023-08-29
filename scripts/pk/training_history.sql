@@ -1,0 +1,5 @@
+
+
+ALTER TABLE training_history ADD CONSTRAINT PK_TRAINING_HISTORY PRIMARY KEY (
+	trnh_seq
+);

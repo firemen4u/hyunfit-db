@@ -1,0 +1,3 @@
+ALTER TABLE member_profile ADD CONSTRAINT PK_MEMBER_PROFILE PRIMARY KEY (
+	mbrp_seq
+);

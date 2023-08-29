@@ -1,0 +1,4 @@
+
+ALTER TABLE personal_training_review ADD CONSTRAINT PK_PERSONAL_TRAINING_REVIEW PRIMARY KEY (
+	ptr_seq
+);

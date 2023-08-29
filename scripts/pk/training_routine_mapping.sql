@@ -1,0 +1,4 @@
+
+ALTER TABLE training_routine_mapping ADD CONSTRAINT PK_TRAINING_ROUTINE_MAPPING PRIMARY KEY (
+	trm_seq
+);
