@@ -1,4 +1,0 @@
-
-ALTER TABLE training ADD CONSTRAINT PK_TRAINING PRIMARY KEY (
-	tri_seq
-);

@@ -1,1 +1,6 @@
 output.sql
+.idea/.gitignore
+.idea/dataSources.xml
+.idea/hyunfit-db.iml
+.idea/modules.xml
+.idea/vcs.xml

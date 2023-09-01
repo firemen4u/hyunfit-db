@@ -1,4 +1,0 @@
-
-ALTER TABLE training_target ADD CONSTRAINT PK_TRAINING_TARGET PRIMARY KEY (
-	ttg_seq
-);

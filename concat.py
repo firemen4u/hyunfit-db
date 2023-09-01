@@ -27,6 +27,8 @@ sql_files.extend(
     join(fk_script_path, filename)
     for filename in os.listdir(fk_script_path)
 )
+sql_files.append(join(cwd, "scripts/generate-obj.sql"))
+
 output_file = "output.sql"
 
 # 출력 파일을 초기화합니다.

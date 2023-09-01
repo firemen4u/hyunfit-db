@@ -1,6 +1,6 @@
 
 CREATE TABLE personal_training_review (
-	ptr_seq	NUMBER		NOT NULL,
+	ptr_seq	NUMBER	DEFAULT ptr_seq.NEXTVAL	NOT NULL,
 	pt_seq	NUMBER		NOT NULL,
 	ptr_creation_date	TIMESTAMP	DEFAULT CURRENT_TIMESTAMP	NOT NULL,
 	ptr_content	VARCHAR2(2002)		NULL,

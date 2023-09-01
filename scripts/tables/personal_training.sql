@@ -1,11 +1,11 @@
 
 CREATE TABLE personal_training (
-	pt_seq	NUMBER		NOT NULL,
+	pt_seq	NUMBER	DEFAULT pt_seq.NEXTVAL	NOT NULL,
 	trn_seq	NUMBER		NOT NULL,
 	mbr_seq	NUMBER		NOT NULL,
 	pt_creation_date	TIMESTAMP	DEFAULT CURRENT_TIMESTAMP	NOT NULL,
 	pt_reservation_date	TIMESTAMP		NOT NULL,
-	pt_lesson_duration	NUMBER		NOT NULL,
+	pt_lesson_duration	NUMBER		NULL,
 	pt_lesson_start_date	TIMESTAMP		NULL,
 	pt_lesson_end_date	TIMESTAMP		NULL,
 	pt_reservation_status	NUMBER		NOT NULL,

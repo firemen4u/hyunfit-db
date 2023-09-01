@@ -1,5 +1,5 @@
 CREATE TABLE trainer (
-	trn_seq	NUMBER		NOT NULL,
+	trn_seq	NUMBER	DEFAULT trn_seq.NEXTVAL	NOT NULL,
 	trn_id	VARCHAR2(100)		NOT NULL,
 	trn_pw	VARCHAR2(1000)		NOT NULL,
 	trn_name	VARCHAR2(100)		NOT NULL,

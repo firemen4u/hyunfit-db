@@ -1,0 +1,4 @@
+
+ALTER TABLE exercise_target ADD CONSTRAINT PK_TRAINING_TARGET PRIMARY KEY (
+	exctg_seq
+);
