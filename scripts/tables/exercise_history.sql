@@ -1,7 +1,7 @@
 
 
 CREATE TABLE exercise_history (
-	exch_seq	NUMBER	DEFAULT exch_seq.NEXTVAL	NOT NULL,
+	exch_seq	NUMBER	DEFAULT exch_seq_pk.NEXTVAL	NOT NULL,
 	exc_seq	NUMBER		NOT NULL,
 	mbr_seq	NUMBER		NOT NULL,
 	exch_start_time	TIMESTAMP		NOT NULL,

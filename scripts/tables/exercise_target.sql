@@ -1,6 +1,6 @@
 
 CREATE TABLE exercise_target (
-	exctg_seq	NUMBER	DEFAULT exctg_seq.NEXTVAL	NOT NULL,
+	exctg_seq	NUMBER	DEFAULT exctg_seq_pk.NEXTVAL	NOT NULL,
 	exc_seq	NUMBER		NOT NULL,
 	exctg_area	NUMBER		NOT NULL,
 	exctg_weight	NUMBER	DEFAULT 1.0	NOT NULL

@@ -27,7 +27,10 @@ sql_files.extend(
     join(fk_script_path, filename)
     for filename in os.listdir(fk_script_path)
 )
+
+# Sql 리스트에 insert문 추가
 sql_files.append(join(cwd, "scripts/generate-obj.sql"))
+
 
 output_file = "output.sql"
 

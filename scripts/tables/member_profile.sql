@@ -1,5 +1,5 @@
 CREATE TABLE member_profile (
-	mbrp_seq	NUMBER	DEFAULT mbrp_seq.NEXTVAL	NOT NULL,
+	mbrp_seq	NUMBER	DEFAULT mbrp_seq_pk.NEXTVAL	NOT NULL,
     mbr_seq NUMBER NOT NULL,
 	mbrp_birthdate	TIMESTAMP		NULL,
 	mbrp_gender	NUMBER		NULL,

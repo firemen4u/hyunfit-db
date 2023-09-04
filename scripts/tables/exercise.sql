@@ -1,6 +1,6 @@
 
 CREATE TABLE exercise (
-	exc_seq	NUMBER	DEFAULT exc_seq.NEXTVAL	NOT NULL,
+	exc_seq	NUMBER	DEFAULT exc_seq_pk.NEXTVAL	NOT NULL,
 	adm_seq	NUMBER		NOT NULL,
 	exc_name	VARCHAR2(100)		NOT NULL,
 	exc_type	NUMBER		NOT NULL,

@@ -1,6 +1,6 @@
 
 CREATE TABLE personal_training (
-	pt_seq	NUMBER	DEFAULT pt_seq.NEXTVAL	NOT NULL,
+	pt_seq	NUMBER	DEFAULT pt_seq_pk.NEXTVAL	NOT NULL,
 	trn_seq	NUMBER		NOT NULL,
 	mbr_seq	NUMBER		NOT NULL,
 	pt_creation_date	TIMESTAMP	DEFAULT CURRENT_TIMESTAMP	NOT NULL,
@@ -13,8 +13,8 @@ CREATE TABLE personal_training (
 	pt_notes	VARCHAR2(2002)		NULL
 );
 
-COMMENT ON COLUMN personal_training.pt_seq IS 'pt_seq.NEXTVAL';
-COMMENT ON COLUMN personal_training.trn_seq IS 'trn_seq.NEXTVAL';
+COMMENT ON COLUMN personal_training.pt_seq IS 'pt_seq_pk.NEXTVAL';
+COMMENT ON COLUMN personal_training.trn_seq IS 'trn_seq_pk.NEXTVAL';
 COMMENT ON COLUMN personal_training.pt_creation_date IS '데이터 생성시간';
 COMMENT ON COLUMN personal_training.pt_reservation_date IS '실제 레슨 예정일';
 COMMENT ON COLUMN personal_training.pt_lesson_duration IS '레슨 예약시 수업 시간(시, 분)';

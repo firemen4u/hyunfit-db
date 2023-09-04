@@ -1,5 +1,5 @@
 CREATE TABLE member (
-	mbr_seq	NUMBER	DEFAULT mbr_seq.NEXTVAL	NOT NULL,
+	mbr_seq	NUMBER	DEFAULT mbr_seq_pk.NEXTVAL	NOT NULL,
 	mbr_id	VARCHAR2(100)		NOT NULL,
 	mbr_pw	VARCHAR2(1000)		NOT NULL,
 	mbr_name	VARCHAR2(100)		NULL,

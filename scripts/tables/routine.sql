@@ -1,10 +1,10 @@
 
 CREATE TABLE routine (
-	rtn_seq	NUMBER	DEFAULT rtn_seq.NEXTVAL	NOT NULL,
+	rtn_seq	NUMBER	DEFAULT rtn_seq_pk.NEXTVAL	NOT NULL,
 	adm_seq	NUMBER		NOT NULL,
 	rtn_name	VARCHAR2(100)		NOT NULL,
 	rtn_content	VARCHAR2(2002)		NOT NULL,
-	rtn_created_date	TIMESTAMP		NOT NULL,
+	rtn_created_date	TIMESTAMP	DEFAULT CURRENT_TIMESTAMP	NOT NULL,
 	rtn_url	VARCHAR2(255)		NOT NULL,
 	rtn_target	NUMBER		NOT NULL,
 	rtn_duration	NUMBER		NOT NULL,
